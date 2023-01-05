@@ -1,5 +1,7 @@
 # Birthday Reminders
 
+**Live Site:** https://birthday-reminder.andrejarboe.com/
+
 This is a React application that displays a list of people with birthdays on the current day. It contains a main component called App that displays the list of people and a button to clear the list, and a subcomponent called List that displays the people.
 
 ## How useState is utilized
