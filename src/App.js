@@ -1,8 +1,19 @@
 import React, { useState } from 'react';
 import data from './data.js';
 import List from './List';
+
 function App() {
-  return <h2>reminder project setup</h2>;
+  const [people, setPeople] = useState(data);
+
+  return (
+    <main>
+      <section className="container">
+        <h3> {people.length} Birthdays today</h3>
+        <List people={people} />
+        <button onClick={() => console.log('You clicked me')}>clear all</button>
+      </section>
+    </main>
+  );
 }
 
 export default App;
