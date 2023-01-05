@@ -5,9 +5,12 @@
 This is a React application that displays a list of people with birthdays on the current day. It contains a main component called App that displays the list of people and a button to clear the list, and a subcomponent called List that displays the people.
 
 ## How useState is utilized
-The useState hook is used in the App component to manage the state of the list of people. It initializes the state with the imported data, and provides a function to update the state when the clear button is clicked.
+The useState hook is used in the App component to manage the state of the list of people. 
+* It initializes the state with the imported data, and provides a function to update the state when the clear button is clicked.
 
-The state is destructured into two variables: people and setPeople. The first is the current value of the state, and the second is a function to update it. The setPeople function is passed to the onClick event of the clear button, and when the button is clicked, it sets the value of people to an empty array, effectively clearing the list.
+The state is destructured into two variables: people and setPeople. 
+* The first is the current value of the state, and the second is a function to update it. 
+* The setPeople function is passed to the onClick event of the clear button, and when the button is clicked, it sets the value of people to an empty array, effectively clearing the list.
 
 ## File structure
 The application has two core react files:
